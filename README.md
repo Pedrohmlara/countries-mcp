@@ -2,14 +2,6 @@
 
 This project implements a Model Context Protocol (MCP) server that provides country-related data using the [REST Countries API](https://restcountries.com/). It's built using TypeScript and Express, with Docker support for easy deployment.
 
-## Features
-
-- MCP-compliant server implementation
-- Country flag information retrieval
-- Session-based communication
-- Docker support for containerized deployment
-- TypeScript for type safety
-
 ## Prerequisites
 
 - Node.js (v14 or higher)
@@ -18,18 +10,12 @@ This project implements a Model Context Protocol (MCP) server that provides coun
 
 ## Installation
 
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd countries-mcp
-```
-
-2. Install dependencies:
+1. Install dependencies:
 ```bash
 npm install
 ```
 
-3. Add a `.env` file in the root directory as .example shows
+2. Add a `.env` file in the root directory as .example shows
 
 ## Running the Application
 
